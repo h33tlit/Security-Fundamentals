@@ -25,6 +25,9 @@ Understand the basics of networking : https://www.youtube.com/watch?v=_IOZ8_cPgu
 ### 5. Subnet
 - Divides a larger network into smaller, manageable sections.
 - Helps organize and isolate network traffic within a LAN.
+
+How To Identify Subnet Ranges?
+
 ![image](https://github.com/user-attachments/assets/f9fee2b9-d195-4546-b59b-5ba049bec985)
 
 
