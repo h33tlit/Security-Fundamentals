@@ -192,3 +192,8 @@ How To Identify Subnet Ranges?
 
 Basics: https://www.youtube.com/watch?v=xo5V9g9joFs
 
+
+## SOC / Threat Hunting
+
+Good For Understanding The Terms And How The Dots Can Be Connected  - https://www.youtube.com/watch?v=VNp35Uw_bSM
+
