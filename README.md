@@ -72,5 +72,7 @@ How To Identify Subnet Ranges?
 - **Firewalls** and **Port Forwarding** enable controlled communication between internal and external networks.
 - **Routers** and **NAT** ensure efficient and secure device communication across different network layers.
 
+## Forward Proxy, Reverse Proxy and Load Balancing
 
+Basics: https://www.youtube.com/watch?v=xo5V9g9joFs
 
