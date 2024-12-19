@@ -1,5 +1,12 @@
 # Security Fundamentals
 
+## SSL/TLS 
+
+TLS 1.2 Flow Diagram And Explained - https://www.youtube.com/watch?v=j9QmMEWmcfo
+
+![image](https://github.com/user-attachments/assets/0fbf8acc-0343-4445-8bed-01fbbda35c34)
+
+
 ## Networking Basics
 Understand the basics of networking : https://www.youtube.com/watch?v=_IOZ8_cPgu8
 
