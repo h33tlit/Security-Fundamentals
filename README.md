@@ -196,4 +196,82 @@ Basics: https://www.youtube.com/watch?v=xo5V9g9joFs
 ## SOC / Threat Hunting
 
 Good For Understanding The Terms And How The Dots Can Be Connected  - https://www.youtube.com/watch?v=VNp35Uw_bSM
+Good For Understanding The Process - https://www.youtube.com/watch?v=NdwTeSi70SU
+
+# Threat Hunting: Key Notes and Strategy
+
+- **Threat hunting** involves proactively searching for anomalies or indicators of compromise in a system.
+- It is a **technical process** requiring knowledge of attacker behavior and system baselines.
+- **Common challenges** include:
+  1. Complexity of the domain.
+  2. Lack of actionable and pragmatic advice online.
+  3. Vendor-driven resources that double as advertisements.
+  4. Difficulty in choosing the right starting point.
+
+---
+
+## **Step 1: Learn Attacker TTPs**
+- **TTPs**: Tactics, Techniques, and Procedures.
+  - **Tactics**: High-level goals of attackers.
+  - **Techniques**: General methods to achieve those goals.
+  - **Procedures**: Step-by-step execution of an attack.
+- Use resources like the **MITRE ATT&CK framework** to familiarize yourself with common TTPs.
+  - **Focus on these key categories**:
+    - **Execution**
+    - **Persistence**
+    - **Privilege Escalation**
+    - **Lateral Movement**
+  - These categories are easier to detect via telemetry and log analysis.
+
+---
+
+## **Step 2: Establish a Baseline**
+- **Understand what is normal**:
+  - Review logs regularly to identify typical patterns.
+  - Know the behavior of admins and applications on your servers.
+  - **Ask operational questions**:
+    - How often are servers accessed?
+    - Is **sudo** configured correctly?
+    - Is there monitoring in place?
+    - How often are patches applied?
+  - This baseline helps in spotting anomalies.
+
+---
+
+## **Step 3: Start the Hunt**
+- **Use security tools wisely**:
+  - Examples: SIEM, SOAR, EDR, or XDR.
+  - Tools are helpful but rely on human configuration and oversight.
+- **Confirm your setup**:
+  - Verify that logs are generated as expected.
+  - Ensure that security tools are collecting and shipping logs for analysis.
+- **Investigate directly**:
+  - Access systems and explore manually or with scripts.
+  - **Search logs for suspicious activity**, such as:
+    - Powershell execution at odd hours.
+    - Activity under unauthorized accounts.
+
+---
+
+## **Additional Resources**
+- Use recent **attacker behavior reports** to guide your focus:
+  - Examples:
+    - **CrowdStrike OverWatch Report**
+    - **Verizon Data Breach Report**
+  - **Common indicators** include:
+    - Abuse of valid accounts.
+    - Unusual use of command and scripting interpreters.
+
+---
+
+## **Key Takeaways**
+- **Three steps for threat hunting**:
+  1. Learn attacker TTPs relevant to your environment.
+  2. Establish a baseline of normal activity.
+  3. Explore system telemetry, logs, and security tools to find anomalies.
+- **Proactive mindset**:
+  - Don’t rely solely on tools.
+  - Always verify your assumptions and data collection methods.
+
+---
 
