@@ -1,6 +1,6 @@
 # Cyber Security Fundamentals
 
-## SSL/TLS 
+# SSL/TLS 
 
 TLS 1.2 Flow Diagram And Explained - https://www.youtube.com/watch?v=j9QmMEWmcfo
 
@@ -116,7 +116,7 @@ TLS handshakes rely on **asymmetric cryptography** for key exchange and **symmet
 
 
 
-## Networking Basics
+# Networking Basics
 Understand the basics of networking : https://www.youtube.com/watch?v=_IOZ8_cPgu8
 
 ## Key Networking Components and Concepts
@@ -193,12 +193,12 @@ How To Identify Subnet Ranges?
 Basics: https://www.youtube.com/watch?v=xo5V9g9joFs
 
 
-## SOC / Threat Hunting
+# SOC / Threat Hunting
 
 Good For Understanding The Terms And How The Dots Can Be Connected  - https://www.youtube.com/watch?v=VNp35Uw_bSM
 Good For Understanding The Process - https://www.youtube.com/watch?v=NdwTeSi70SU
 
-# Threat Hunting: Key Notes and Strategy
+## Threat Hunting: Key Notes and Strategy
 
 - **Threat hunting** involves proactively searching for anomalies or indicators of compromise in a system.
 - It is a **technical process** requiring knowledge of attacker behavior and system baselines.
@@ -274,4 +274,37 @@ Good For Understanding The Process - https://www.youtube.com/watch?v=NdwTeSi70SU
   - Always verify your assumptions and data collection methods.
 
 ---
+## Log Analysis
+
+## Quick Tips for EDR Analysis  
+
+1. **Search Efficiently with IOCs**  
+   Use Indicators of Compromise (IOCs) like file hashes, IP addresses, or process names to search across all endpoints. This can quickly identify affected devices and determine the scope of the attack.  
+
+2. **Leverage Containment Features**  
+   Isolate compromised devices immediately to prevent lateral movement. Ensure the device communicates only with the EDR center for ongoing analysis without further network risk.  
+
+3. **Analyze Browser History**  
+   Check browser history on the device to identify any suspicious activity or malicious downloads that could indicate the entry point of an attack.  
+
+4. **Monitor Network Connections**  
+   Review active and historical network connections to detect unauthorized access or command-and-control communication.  
+
+5. **Investigate Process Lists**  
+   Identify unusual processes or applications running on the device. Pay attention to processes that mimic legitimate ones but have unexpected behaviors.  
+
+6. **Utilize Live Investigation**  
+   Connect to the endpoint in real time to gather additional evidence, capture memory dumps, or run specific forensic tools for deeper analysis.  
+
+7. **Automate Repetitive Tasks**  
+   Use automated playbooks in your EDR tool for common tasks like hash lookups, file quarantines, and IOC scanning to save time.  
+
+8. **Prioritize Alerts**  
+   Focus on high-severity alerts and events flagged by your EDR solution. These often indicate critical threats requiring immediate action.  
+
+9. **Document Everything**  
+   Maintain a log of your EDR analysis steps, findings, and containment actions. This aids in incident reporting and knowledge sharing.  
+
+10. **Practice Regularly**  
+    Simulate incident scenarios to familiarize yourself with the EDR tool's interface and features, ensuring quick and efficient responses during actual events.  
 
