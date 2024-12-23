@@ -308,3 +308,47 @@ Good For Understanding The Process - https://www.youtube.com/watch?v=NdwTeSi70SU
 10. **Practice Regularly**  
     Simulate incident scenarios to familiarize yourself with the EDR tool's interface and features, ensuring quick and efficient responses during actual events.  
 
+
+
+## Common Mistakes Made by SOC Analysts  
+
+## 1. **Over-reliance on VirusTotal Results**  
+- VirusTotal is a **supporting tool** and should not be solely relied upon for analysis.  
+- New malicious software using AV bypass techniques may not be detected by VirusTotal.  
+- Always perform additional analysis beyond VirusTotal results.  
+
+**Key Tip**: Treat VirusTotal as a starting point, not the final answer.  
+
+---
+
+## 2. **Hasty Analysis of Malware in a Sandbox**  
+- Short analysis times (3-4 minutes) in sandboxes can lead to inaccurate results.  
+  - Malware may detect the sandbox environment and remain inactive.  
+  - Some malware takes 10-15 minutes (or longer) to activate.  
+- **Recommendation**:  
+  - Conduct extended analysis in sandboxes.  
+  - Use real environments for better accuracy, if feasible.  
+
+---
+
+## 3. **Inadequate Log Analysis**  
+- Failing to properly analyze logs can result in missed connections or threats.  
+- Example:  
+  - Malware detected on a device ("LetsDefend") secretly sends data to "letsdefend.io".  
+  - SOC analysts must use log management tools to check if other devices are also connecting to this address.  
+
+**Key Tip**: Always correlate logs across devices for a comprehensive view.  
+
+---
+
+## 4. **Overlooking VirusTotal Dates**  
+- Cached results on VirusTotal may not reflect the current state of a URL or file.  
+- Example:  
+  - An attacker might query a clean URL, then replace it with malicious content later.  
+- **Recommendation**:  
+  - Do not rely solely on cached results.  
+  - Perform a fresh search to ensure the latest data is analyzed.  
+
+---
+
+
