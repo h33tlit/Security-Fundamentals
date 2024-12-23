@@ -334,7 +334,7 @@ Good For Understanding The Process - https://www.youtube.com/watch?v=NdwTeSi70SU
 ## 3. **Inadequate Log Analysis**  
 - Failing to properly analyze logs can result in missed connections or threats.  
 - Example:  
-  - Malware detected on a device ("LetsDefend") secretly sends data to "letsdefend.io".  
+  - Malware detected on a device ("Jev") secretly sends data to "jev.io".  
   - SOC analysts must use log management tools to check if other devices are also connecting to this address.  
 
 **Key Tip**: Always correlate logs across devices for a comprehensive view.  
