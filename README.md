@@ -197,6 +197,7 @@ Basics: https://www.youtube.com/watch?v=xo5V9g9joFs
 
 Good For Understanding The Terms And How The Dots Can Be Connected  - https://www.youtube.com/watch?v=VNp35Uw_bSM
 Good For Understanding The Process - https://www.youtube.com/watch?v=NdwTeSi70SU
+Diamond Model Of Threat Hunting - https://kravensecurity.com/diamond-model-analysis/#:~:text=The%20Diamond%20Model%20is%20a%20conceptual%20framework%20used%20in%20cyber,victim%2C%20infrastructure%2C%20and%20capability.
 
 ## Threat Hunting: Key Notes and Strategy
 
@@ -350,5 +351,4 @@ Good For Understanding The Process - https://www.youtube.com/watch?v=NdwTeSi70SU
   - Perform a fresh search to ensure the latest data is analyzed.  
 
 ---
-
 
